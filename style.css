@@ -991,5 +991,9 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
-
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem; /* hoặc giá trị nhỏ hơn bạn đang dùng */
+  }
+}
 /*# sourceMappingURL=style.css.map */
